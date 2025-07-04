@@ -21,6 +21,7 @@ body {
   align-items: center;
   gap: 10px;
   padding: 100px;
+  color: rgb(66, 66, 66);
 }
 
 .container {
@@ -43,7 +44,7 @@ body {
   /* align-items: center; */
   font-size: 20px;
   border-radius: 10px;
-  box-shadow: 0 1px 4px 0;
+  box-shadow: 0 8px 8px 0 rgb(219, 219, 219);
 }
 
 .a {
