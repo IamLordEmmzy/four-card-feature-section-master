@@ -124,9 +124,13 @@ body {
   border-top: 6px solid rgb(255, 153, 0);
 }
 @media screen and (max-width: 680px) {
+  body {
+    height: auto;
+  }
   .container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
   }
 
   .head {
@@ -146,5 +150,40 @@ body {
 
   .very-little {
     font-size: 1.3rem;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 10px;
+  }
+
+  .little {
+    font-size: 1.5rem;
+  }
+
+  .huge {
+    font-size: 2rem;
+  }
+
+  .very-little {
+    font-size: 1rem;
+  }
+  .a,
+  .b,
+  .c,
+  .d {
+    display: flex;
+    width: 90%;
+    height: 250px;
   }
 }
