@@ -24,6 +24,25 @@ body {
   color: rgb(66, 66, 66);
 }
 
+.little {
+  font-size: 2.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.huge {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.very-little {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 60%;
+}
 .container {
   display: grid;
   gap: 20px;
@@ -99,7 +118,33 @@ body {
   padding: 20px;
   background-color: white;
   grid-column-start: 2;
+  grid-column-end: 3;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   border-top: 6px solid rgb(255, 153, 0);
+}
+@media screen and (max-width: 680px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 10px;
+  }
+
+  .little {
+    font-size: 2rem;
+  }
+
+  .huge {
+    font-size: 2.5rem;
+  }
+
+  .very-little {
+    font-size: 1.3rem;
+  }
 }
