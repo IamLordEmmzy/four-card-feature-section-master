@@ -28,7 +28,7 @@ body {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 400px);
-  grid-template-rows: repeat(2, 300px);
+  grid-template-rows: repeat(2, 250px);
   align-items: center;
   justify-content: center;
 }
@@ -39,7 +39,7 @@ body {
 .d {
   display: flex;
   width: 400px;
-  height: 300px;
+  height: 250px;
   /* justify-content: center; */
   /* align-items: center; */
   font-size: 20px;
@@ -57,27 +57,12 @@ body {
   background-color: white;
   grid-row: span 2;
   align-self: center;
-  border-top: 10px solid rgb(52, 121, 226);
-}
-
-div.a img {
-  height: 80px;
-  width: 80px;
-}
-
-div.b img {
-  height: 80px;
-  width: 80px;
-}
-
-div.c img {
-  height: 80px;
-  width: 80px;
+  border-top: 6px solid aqua;
 }
 
 .img-con {
   width: 100%;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: end;
   margin-top: 50px;
@@ -91,7 +76,7 @@ div.c img {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: white;
-  border-top: 10px solid red;
+  border-top: 6px solid red;
 }
 
 .c {
@@ -102,7 +87,7 @@ div.c img {
     "Lucida Sans", Arial, sans-serif;
   gap: 10px;
   background-color: white;
-  border-top: 10px solid blue;
+  border-top: 6px solid rgb(0, 162, 255);
   grid-row: span 2;
   align-self: center;
 }
@@ -116,5 +101,5 @@ div.c img {
   grid-column-start: 2;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  border-top: 10px solid yellow;
+  border-top: 6px solid rgb(255, 153, 0);
 }
